@@ -1,5 +1,5 @@
 ---
-- name: Collect only facts returned by facter
+- name: Collect info
   hosts: 172.31.39.217
   gather_facts: true
   tasks:
