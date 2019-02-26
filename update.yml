@@ -1,0 +1,8 @@
+---
+- name: patch
+  hosts: 172.31.39.217
+  connection: winrm
+  tasks:
+      - win_updates: 
+         category_names:
+          - SecurityUpdates
