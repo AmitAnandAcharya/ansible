@@ -1,0 +1,6 @@
+---
+- name: Get disk facts
+  hosts: 172.31.39.217
+  tasks:
+   - debug: 
+      var: ansible_facts.disks[0].size
